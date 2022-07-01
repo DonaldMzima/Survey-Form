@@ -9,9 +9,12 @@
   body {
     font-family: 'Lato',Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif; 
   }
+  .h1{
+    color: #eeeeee;
+  }
   
   #main {
-    background-image: url(https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=2000);
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIQAhAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwUBAgQGB//EADsQAAIBAwEEBQgHCQAAAAAAAAABAgMEESEFEjFBIjJRYYEGExQjcZGhsUJSYpOys9EHFkODkqKjwdL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+K29LfcVjrSS+KOilbpOecaacfsz/Q22bBOpbY4yrRz/AFxOuW6qjUt5Jy5Ls86gKNmDLMAAAAAAAAAAAAAAAAAAABaWHRqWrT4VV+OBY0Kcq1WKjTVRtPTDf06xX2mjo44Kpp95A7bCpH0uhGUt1OpHXGf4k/8AoDzoMswAAAAAAAAAAAAAAAAAAAFtb/QwsesenZ6yB27KUY39vKag4KcXJT3cY8/r1tOGTloL1kE9X51p/eQJKctyqsU4VMZe7Oe6nitnjlAUmVplZ8TeMaclje3X9pae8jfIR4gb1KU6b6ccZWV2NdxGWez7mhB+Zv6cq1nPScYPEofbh3r3Pg+1bbf2LX2NcwhUlGtb1qaq21zDqV6b4SXZ3rkBVAAAAAAAAAAAAAAAAuqDSqwxwVVv/LAy4JzquUYzW7J7s57qfrlzzoaReJN81Uk2+31kCS7i6bljGqqZzw0rAUkuJmK1M1tKsl3szFAb8j3WxKUfKP8AZ9fbNrdK62TN1rOXNRkm3D2Pdlp24PCnr/2eXfol1eSl1ZRgn39YDxTWDBLcqMbipGPVjNpezJEAAAAAAAAAAAAAAWlzLcjWa+vU/Midm0sN3a+pCt+ev1K66nmFTHOU/wASOzaE81r9LnUrx/viwKXjxJIkaJYgbci22dXVnaSnwb6T78cPmyqw8E17N04+aT4dF+HH4gcLeXl8TAAAAAAAAAAAAAAABNObcWn3/NHfcT36901zqV38iul+pO5t1KuvF1PiBzxXMkRhG2NQJ7VQ9Lt/O9RVY73sysk/lFaVLO8VOpBx6L8Xl5/0cnc+B6mvS/eTyb34Pe2hs9dKPOpHHHxS98e8DxYAAAAAAAAAAAAAAAJGtGS46cvbL5ETkbOfTfiBsuJlcTSM0bqSyBI1oWvk9tGWy9o07h73murVS1zB8dO1cV7CrclgkhLQCz8tdjxsL/0q2UXaXL3k4PKUuLS7nxR5o9zs+pHbPk3cbOqtKrbrFPuXGHxTXsweIlFxbUlhrRoDUAAAAAAAAAAAAB3+i2fLaMX/ACZksLLZ++1V2m498baUs/ErXjkbxqtVN7Ge7wAzdQo068o29Z1qS6tRw3c+BFlm9erKtNTqNuW6llvOcLBGBKqnRSJIVdDmAF1sW9lb3r3XpUi4v5r4pHBtTdd9VlDqze97yOzbVzTa5PPuI60nKo864eANAAAAAAAAAAAAAAAAAAAAAE1o924i9HjOj9hE3lt9oAGAAAAAAAAAAAAAH//Z);
     position:flex;
     top: 0;
     left: 0;
@@ -38,7 +41,7 @@
     font-family: 35px;
     z-index: Z;
     position: relative;
-    color:black;
+    color:white;
   }
   
   .main-content {
@@ -99,6 +102,8 @@
   #comment{
     min-height: 100px;
     box-shadow: 0px -1px 10px 5px green;
+    background-color: blueviolet;
+    color: #000;
   }
   
   label[for=comment]{
