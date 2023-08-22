@@ -1,125 +1,107 @@
+/* Reset default margin and padding */
 * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-family: 'Roboto', open-sans;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: 'Lato',Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif; 
-  }
-  .h1{
-    color: #eeeeee;
-  }
-  
-  #main {
-    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIQAhAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwUBAgQGB//EADsQAAIBAwEEBQgHCQAAAAAAAAABAgMEESEFEjFBIjJRYYEGExQjcZGhsUJSYpOys9EHFkODkqKjwdL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+K29LfcVjrSS+KOilbpOecaacfsz/Q22bBOpbY4yrRz/AFxOuW6qjUt5Jy5Ls86gKNmDLMAAAAAAAAAAAAAAAAAAABaWHRqWrT4VV+OBY0Kcq1WKjTVRtPTDf06xX2mjo44Kpp95A7bCpH0uhGUt1OpHXGf4k/8AoDzoMswAAAAAAAAAAAAAAAAAAAFtb/QwsesenZ6yB27KUY39vKag4KcXJT3cY8/r1tOGTloL1kE9X51p/eQJKctyqsU4VMZe7Oe6nitnjlAUmVplZ8TeMaclje3X9pae8jfIR4gb1KU6b6ccZWV2NdxGWez7mhB+Zv6cq1nPScYPEofbh3r3Pg+1bbf2LX2NcwhUlGtb1qaq21zDqV6b4SXZ3rkBVAAAAAAAAAAAAAAAAuqDSqwxwVVv/LAy4JzquUYzW7J7s57qfrlzzoaReJN81Uk2+31kCS7i6bljGqqZzw0rAUkuJmK1M1tKsl3szFAb8j3WxKUfKP8AZ9fbNrdK62TN1rOXNRkm3D2Pdlp24PCnr/2eXfol1eSl1ZRgn39YDxTWDBLcqMbipGPVjNpezJEAAAAAAAAAAAAAAWlzLcjWa+vU/Midm0sN3a+pCt+ev1K66nmFTHOU/wASOzaE81r9LnUrx/viwKXjxJIkaJYgbci22dXVnaSnwb6T78cPmyqw8E17N04+aT4dF+HH4gcLeXl8TAAAAAAAAAAAAAAABNObcWn3/NHfcT36901zqV38iul+pO5t1KuvF1PiBzxXMkRhG2NQJ7VQ9Lt/O9RVY73sysk/lFaVLO8VOpBx6L8Xl5/0cnc+B6mvS/eTyb34Pe2hs9dKPOpHHHxS98e8DxYAAAAAAAAAAAAAAAJGtGS46cvbL5ETkbOfTfiBsuJlcTSM0bqSyBI1oWvk9tGWy9o07h73murVS1zB8dO1cV7CrclgkhLQCz8tdjxsL/0q2UXaXL3k4PKUuLS7nxR5o9zs+pHbPk3cbOqtKrbrFPuXGHxTXsweIlFxbUlhrRoDUAAAAAAAAAAAAB3+i2fLaMX/ACZksLLZ++1V2m498baUs/ErXjkbxqtVN7Ge7wAzdQo068o29Z1qS6tRw3c+BFlm9erKtNTqNuW6llvOcLBGBKqnRSJIVdDmAF1sW9lb3r3XpUi4v5r4pHBtTdd9VlDqze97yOzbVzTa5PPuI60nKo864eANAAAAAAAAAAAAAAAAAAAAAE1o924i9HjOj9hE3lt9oAGAAAAAAAAAAAAAH//Z);
-    position:flex;
-    top: 0;
-    left: 0;
-    botton: 0;
-    right: 0;
-    color: #ffffff;
-    overflow-y: scroll;
-    font-size: 24px;
-  }
-  
-  .main::after{
-    content: "";
-    backroun-color: rgb(0,0,0,8,);
-    position: fixed;
-    top: 0;
-    left: 0;
-    botton: 0;
-    right: 0; 
-  }
-  
-  .title,
-  .discription{
-    text-align: center;
-    font-family: 35px;
-    z-index: Z;
-    position: relative;
-    color:white;
-  }
-  
-  .main-content {
-  backround-color: rgb(27,27,50,9,);
-    max-width: 650px;
-      display: flex;
-    flex-direction: column;
-    padding: 40px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    z-index: Z;
-    position: relative;
-    box-shadow: 0px -1px 10px 5px purple;
-    
-  }
-  
-  #name,#email,#number,#dropdown,#comment{
-    display: block;
-    padding: 5px 10px;
-    margin-bottom: 40px;
-    color: #0000;
-    background-color: #ffffff;
-    height: 35px;
-    width: 100%;
-    border: 1px solid #eeeeee;
-    border-radius: 5px;
+/* Basic styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://cutewallpaper.org/21/html-page-background-image/simple-background-color-has-web-page-background-color-.jpg');
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Title and description */
+.title {
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Form styling */
+.form-content {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+fieldset {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: #333;
+}
+
+button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .title {
     font-size: 20px;
   }
-  
-  label[for=name],
-  label[for=email],
-  label[for=number],
-  label[for=dropdown],
-  label[for=comment] {
-  margin-bottom: 10px;
-  display: inline-block;
-  }
-  
-  fieldset input{
-    height: 20px;
-    width: 20px;
-    margin-right: 15px;
+
+  .description {
+    font-size: 14px;
     margin-bottom: 15px;
   }
-  
-  #music-videos,
-  #content quality,
-  #add more music{
-     height: 20px;
-    width: 20px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+
+  input[type='text'],
+  input[type='email'],
+  input[type='number'],
+  textarea,
+  select {
+    margin-bottom: 10px;
   }
-    
-  
-  
-  #comment{
-    min-height: 100px;
-    box-shadow: 0px -1px 10px 5px green;
-    background-color: blueviolet;
-    color: #000;
+
+  button[type='submit'] {
+    font-size: 14px;
   }
-  
-  label[for=comment]{
-    margin-top: 30px;
-  }
-  
-  #submit{
-   display:block;
-   width:100%;
-   padding:0.75rem;
-   background:#37af65;
-   border-radius:2px;
-   cursor:pointer;
-   border:0;
-   color:#ffffff;
-   font-size:20px;
-    
-    
-  }
+}
